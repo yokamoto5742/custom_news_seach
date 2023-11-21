@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>カスタムニュース検索アプリ</title>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h1 class="mt-5">カスタムニュース検索アプリ</h1>
+<div class="card mt-3">
+<div class="card-body">
+<pre>{{ chat_history }}</pre>
+</div>
+</div>
+<form method="post">
+<div class="input-group mt-3">
+<input type="text" class="form-control" name="user_input"
+placeholder="メッセージを入力してください">
+<div class="input-group-append">
+<button type="submit" class="btn btn-primary">送信</button>
+</div>
+</div>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js">
+</script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
+</body>
+</html>
