@@ -9,7 +9,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 distro==1.8.0
-Flask==3.0.0
+Flask==2.3.3
 frozenlist==1.4.0
 gunicorn==21.2.0
 h11==0.14.0
