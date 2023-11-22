@@ -75,3 +75,7 @@ def index():
             chat_history = f"あなた: {user_input}\nChatGPT: {chat_gpt_response}"
 
         return render_template("index.html", chat_history=chat_history)
+
+
+if __name__ == "__main__":
+    app.run()
